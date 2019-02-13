@@ -14,7 +14,7 @@
 		"CbxOutputExtension": "jpg",
 		"CbxHandlerDpi": 150,
 		"CbxCreateThumbnailsInJobQueue": false,
-		"CbxPostProcessor": "/usr/bin/cbxconvert",
+		"CbxPostProcessor": "/usr/bin/convert",
 		"CbxHandlerJpegQuality": 95,
 		"CbxProcessor": "/usr/bin/cbx-extractor.sh",
 		"CbxInfo": "/usr/bin/cbx-info.sh"

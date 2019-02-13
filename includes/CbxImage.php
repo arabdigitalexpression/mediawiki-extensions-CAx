@@ -95,7 +95,7 @@ class CbxImage {
 
 			if ( $size ) {
 				//$width  = intval( trim( $size[0] ) / 72 * $wgCbxHandlerDpi );
-				$width  = $size[0] ;
+				$width  = trim($size[0]) ;
 				//$height = explode( ' ', trim( $size[1] ), 2 );
 				$height = explode( ' ', trim( $size[1] ), 2 )[0];
 				//$height = intval( trim( $height[0] ) / 72 * $wgCbxHandlerDpi );

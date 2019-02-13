@@ -191,15 +191,7 @@ class CbxHandler extends ImageHandler {
 
 		$cmd = '(' . wfEscapeShellArg(
 			$wgCbxProcessor,
-			"-sDEVICE=jpeg",
-			"-sOutputFile=-",
-			"-dFirstPage={$page}",
-			"-dLastPage={$page}",
-			"-dSAFER",
-			"-r{$wgCbxHandlerDpi}",
-			"-dBATCH",
-			"-dNOPAUSE",
-			"-q",
+			"-p {$page}",
 			$srcPath
 		);
 		$cmd .= " | " . wfEscapeShellArg(
